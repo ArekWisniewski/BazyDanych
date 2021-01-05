@@ -1,0 +1,15 @@
+Arkadiusz Wiśniewki 158929
+Opis projektu.
+
+Projekt przedstawia schemat biblioteki ( czytelników , zamówienia , ksiażki , kategorie ).
+czytelnik - posiada informacje o czytelnikach zarejestrowanych w programie.
+zamowienie - posiada informacje o zamówionych, wypożyczonych czy oddanych książkach w bibliotece.
+kategoria - tabela zawierająca wszystkie kategorie książek w systemie.
+ksiazka - wszystkie książki dodane do bazy danych.
+bibliotekarz - posiada informacje o bibliotekarzach.
+admin - posiada informacje o administratorach.
+
+Zapytania są powiązane z biblioteką np. ilość zamówień ksiażki dla 1 osoby. 
+Funkcja pokazuje range ksiązki wg stron czyli im wiecej tym lepsza pozycja. 
+Procedury pozwalają sprawdzić dane czytelników lub dają możliwość dodania stron do książek po ID. 
+Zrobiłem także testowe procedury aby można było szybko sprawdzić działanie trigger, funkcji.
