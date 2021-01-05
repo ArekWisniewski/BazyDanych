@@ -87,4 +87,4 @@ INSERT INTO biblioteka.zamowienie SET id_czytelnik=17, id_ksiazka=25, data_zamow
 INSERT INTO biblioteka.zamowienie SET id_czytelnik=2, id_ksiazka=21, data_zamowienia='2020-01-15 12:15:15', data_odbioru='2020-01-15 11:55:01';
 INSERT INTO biblioteka.zamowienie SET id_czytelnik=5, id_ksiazka=29, data_zamowienia='2020-03-01 15:21:06', data_odbioru='2020-03-03 15:20:11', data_zwrotu='2020-05-11 09:21:22';
 INSERT INTO biblioteka.zamowienie SET id_czytelnik=1, id_ksiazka=2, data_zamowienia='2020-05-22 10:12:02', data_odbioru='2020-05-23 11:10:10';
-INSERT INTO biblioteka.zamowienie SET id_czytelnik=7, id_ksiazka=16, data_zamowienia='2020-11-17 14:28:26'; ;
+INSERT INTO biblioteka.zamowienie SET id_czytelnik=7, id_ksiazka=16, data_zamowienia='2020-11-17 14:28:26';
