@@ -12,6 +12,7 @@ CREATE TABLE IF NOT EXISTS `biblioteka`.`czytelnik` (
 `telefon` VARCHAR(50),
 `kod_pocztowy` VARCHAR(45),
 `email` VARCHAR(100),
+`data_dodania` DATETIME,
 PRIMARY KEY (`id_czytelnik`));
 
 CREATE TABLE IF NOT EXISTS `biblioteka`.`kategoria` (
@@ -29,6 +30,7 @@ CREATE TABLE IF NOT EXISTS `biblioteka`.`ksiazka` (
 `wydawnictwo` VARCHAR(50)NOT NULL,
 `rok_wydania` INT(4) NOT NULL,
 `opis` TEXT NULL,
+`data_mod` DATETIME,
 PRIMARY KEY (`id_ksiazka`),
 INDEX `fk_ksiazka_kategoria1_idx` (`id_kategoria` ASC),
 CONSTRAINT `fk_ksiazka_kategoria1`
